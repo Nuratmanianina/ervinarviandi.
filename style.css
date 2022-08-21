@@ -1,0 +1,244 @@
+body {
+  background-color: #00040f;
+}
+
+/* Navigation Bar */
+.navbar {
+  font-family: "Roboto", sans-serif;
+}
+.navbar-brand {
+  font-size: 20px;
+}
+
+.navbar-brand img {
+  width: 45px;
+}
+
+.navbar-nav,
+.nav-link:hover {
+  color: #ffb703;
+  transition: 2s;
+}
+/* Navigation Bar */
+
+/* Hero Section */
+.jumbotron {
+  background: url(img/paterns.png) no-repeat;
+  background-color: #00040f;
+  height: 100vh;
+}
+
+.jumbotron h6 {
+  font-family: "Kanit", sans-serif;
+  margin-top: 120px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  /* font-weight: 500; */
+}
+
+.jumbotron h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 49px;
+  color: #ffffff;
+}
+
+.jumbotron span {
+  /* font-weight: 700; */
+  color: #ffb703;
+}
+
+.jumbotron p {
+  color: #e5e5e5;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.jumbotron .tombol {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffb703;
+  /* color: #e5e5e5; */
+}
+
+.jumbotron .bi {
+  margin-right: 5px;
+}
+
+.jumbotron .button {
+  color: #ffb703;
+  font-weight: 500px;
+}
+
+.jumbotron .button:hover {
+  color: #00040f;
+  background-color: #ffb703;
+}
+
+.jumbotron .icons {
+  margin-top: 20px;
+}
+
+.jumbotron .icons .bi {
+  color: #e5e5e5;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.jumbotron .icons .bi:hover {
+  color: #ffb703;
+  transform: rotateY(100deg);
+}
+
+.jumbotron img {
+  margin-top: 120px;
+  border-radius: 20px;
+  filter: grayscale(100%);
+  width: 300px;
+  display: none;
+}
+/* Akhir Hero Section */
+
+/* About-me */
+.about-me {
+  /* background: url(img/cartographer.png); */
+  background: url(img/paterns.png);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-me h2 {
+  margin-top: 120px;
+}
+
+.about-me p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-me .card {
+  margin-top: 50px;
+}
+/* Akhir About-me */
+
+/* Project */
+.project {
+  font-family: "Roboto", sans-serif;
+}
+
+.project h2 {
+  color: #ffffff;
+  margin-top: 120px;
+}
+
+.project .card {
+  margin-top: 50px;
+}
+/* Akhir Project */
+
+/* Interested working with me */
+/* Card Panjang */
+.creative {
+  background: url(img/stardust.png);
+  font-family: "Roboto", sans-serif;
+  /* background-color: #27282b; */
+
+  margin-top: 180px;
+  margin-bottom: 225px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.11);
+  padding: 20px 0 20px 0;
+  /* background: rgba(202, 200, 200, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.creative h2 {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.creative .tombol {
+  background: linear-gradient(157.81deg, #def9fa -43.27%, #ffb703 -21.24%, #ffb703 12.19%, #ffb703 29.82%, #ffb703 51.94%, #ffb703 90.29%);
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 30px;
+  padding: 15px 30px;
+}
+
+.creative .buton {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 15px 30px;
+}
+
+.creative .buton .bi {
+  margin-right: 10px;
+}
+
+/* Akhir interested working with me */
+
+/* Tools & Skills */
+.skills {
+  font-family: "Roboto", sans-serif;
+}
+
+.skills h2 {
+  color: #fff;
+}
+
+.skills .tools {
+  margin-right: 20px;
+}
+/* Akhir Tools & Skills */
+
+/* footer */
+.footer {
+  background: url(img/paterns.png) no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+.footer h2 {
+  margin-top: 120px;
+  color: #ffffff;
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+.footer p a {
+  color: #ffb703;
+}
+
+.footer .bi {
+  font-size: 32px;
+  margin-right: 10px;
+  color: #e5e5e5;
+}
+
+.footer h6 {
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+  color: #e5e5e5;
+  text-align: center;
+}
+/* Akhir footer */
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .jumbotron {
+    height: 800px;
+  }
+
+  .jumbotron img {
+    min-width: 450px;
+    display: block;
+  }
+}
