@@ -88,8 +88,7 @@ body {
 }
 
 .jumbotron .icons .bi:hover {
-  color: #ffb703;
-  transform: rotateY(100deg);
+  color: #ffb703 !important;
 }
 
 .jumbotron img {
