@@ -78,7 +78,7 @@ body {
 }
 
 .jumbotron .icons {
-  padding-top: 20px;
+  margin-top: 10px;
 }
 
 .jumbotron .icons .bi {
@@ -88,7 +88,7 @@ body {
 }
 
 .jumbotron .icons .bi:hover {
-  color: #ffb703 !important;
+  color: #ffb703;
 }
 
 .jumbotron img {
